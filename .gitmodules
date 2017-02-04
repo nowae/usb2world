@@ -1,0 +1,3 @@
+[submodule "05-Layout/libkicad"]
+	path = 05-Layout/libkicad
+	url = ../libkicad.git
