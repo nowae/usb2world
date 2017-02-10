@@ -1,4 +1,30 @@
 EESchema Schematic File Version 2
+LIBS:nowae-analog
+LIBS:nowae-batterycharger
+LIBS:nowae-buzzer
+LIBS:nowae-capacitor
+LIBS:nowae-connector
+LIBS:nowae-crystal
+LIBS:nowae-dcdc
+LIBS:nowae-devboard
+LIBS:nowae-diode
+LIBS:nowae-fuse
+LIBS:nowae-inductor
+LIBS:nowae-led
+LIBS:nowae-logic
+LIBS:nowae-microcontroller
+LIBS:nowae-misc
+LIBS:nowae-opamp
+LIBS:nowae-opto
+LIBS:nowae-regulator
+LIBS:nowae-resistor
+LIBS:nowae-sensor
+LIBS:nowae-switch
+LIBS:nowae-switching
+LIBS:nowae-transceiver
+LIBS:nowae-transistor
+LIBS:nowae-wireless
+LIBS:power
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -13,4 +39,229 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L FT230XQ U?
+U 1 1 589DAF9E
+P 8250 5200
+F 0 "U?" H 8250 6150 60  0000 C CNN
+F 1 "FT230XQ" H 8250 6050 60  0000 C CNN
+F 2 "QFN16" H 8250 3750 60  0001 C CNN
+F 3 "USB to RS232/RS422/RS285" H 8300 4350 60  0001 C CNN
+F 4 "FTDI" H 8250 4250 60  0001 C CNN "Manufacturer"
+F 5 "FT230XQ" H 8250 4150 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 8250 4050 60  0001 C CNN "Distributor"
+F 7 "2081324" H 8250 3950 60  0001 C CNN "Distributor Code"
+F 8 "2.12" H 8250 3850 60  0001 C CNN "Price €"
+	1    8250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GREEN DL?
+U 1 1 589DB2EE
+P 10250 5850
+F 0 "DL?" H 10250 5950 50  0000 C CNN
+F 1 "GREEN" H 10250 5750 50  0000 C CNN
+F 2 "" H 10250 5850 60  0001 C CNN
+F 3 "Green" H 10250 5850 60  0001 C CNN
+	1    10250 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YELLOW DL?
+U 1 1 589DB33F
+P 10250 5550
+F 0 "DL?" H 10250 5650 50  0000 C CNN
+F 1 "YELLOW" H 10250 5450 50  0000 C CNN
+F 2 "" H 10250 5550 60  0001 C CNN
+F 3 "Yellow" H 10250 5550 60  0001 C CNN
+	1    10250 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RESISTOR R?
+U 1 1 589DB816
+P 9650 5550
+F 0 "R?" V 9730 5550 50  0000 C CNN
+F 1 "270" V 9650 5550 50  0000 C CNN
+F 2 "" V 9580 5550 30  0001 C CNN
+F 3 "" H 9650 5550 30  0001 C CNN
+	1    9650 5550
+	0    1    -1   0   
+$EndComp
+$Comp
+L RESISTOR R?
+U 1 1 589DBA27
+P 9650 5850
+F 0 "R?" V 9730 5850 50  0000 C CNN
+F 1 "270" V 9650 5850 50  0000 C CNN
+F 2 "" V 9580 5850 30  0001 C CNN
+F 3 "" H 9650 5850 30  0001 C CNN
+	1    9650 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 5650 9250 5650
+Wire Wire Line
+	9250 5650 9250 5550
+Wire Wire Line
+	9250 5550 9400 5550
+Wire Wire Line
+	8750 5750 9250 5750
+Wire Wire Line
+	9250 5750 9250 5850
+Wire Wire Line
+	9250 5850 9400 5850
+Wire Wire Line
+	9900 5550 10050 5550
+Wire Wire Line
+	9900 5850 10050 5850
+Wire Wire Line
+	7300 5050 7650 5050
+Wire Wire Line
+	7650 5050 7750 5050
+Text Label 7300 5050 0    60   ~ 0
+VCCIO
+Wire Wire Line
+	10550 5850 10450 5850
+Wire Wire Line
+	10550 5550 10550 5700
+Wire Wire Line
+	10550 5700 10550 5850
+Wire Wire Line
+	10550 5550 10450 5550
+Wire Wire Line
+	10900 5700 10550 5700
+Connection ~ 10550 5700
+Text Label 10900 5700 2    60   ~ 0
+VCCIO
+$Comp
+L CAPACITOR C?
+U 1 1 589DBD48
+P 7650 5400
+F 0 "C?" H 7650 5500 50  0000 L CNN
+F 1 "100nF" H 7656 5315 50  0000 L CNN
+F 2 "" H 7688 5250 30  0000 C CNN
+F 3 "" H 7650 5400 60  0000 C CNN
+	1    7650 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5650 7650 5650
+Wire Wire Line
+	7650 5600 7650 5650
+Wire Wire Line
+	7650 5650 7650 5750
+Wire Wire Line
+	7650 5750 7650 5850
+Wire Wire Line
+	7650 5850 7650 6000
+Wire Wire Line
+	7650 5750 7750 5750
+Connection ~ 7650 5650
+Wire Wire Line
+	6600 5850 6900 5850
+Wire Wire Line
+	6900 5850 7650 5850
+Wire Wire Line
+	7650 5850 7750 5850
+Connection ~ 7650 5750
+Wire Wire Line
+	7650 5150 7750 5150
+Wire Wire Line
+	7650 4950 7650 5050
+Wire Wire Line
+	7650 5050 7650 5150
+Wire Wire Line
+	7650 5150 7650 5200
+Connection ~ 7650 5050
+Connection ~ 7650 5150
+Wire Wire Line
+	7750 4950 7650 4950
+$Comp
+L GND #PWR?
+U 1 1 589DBF49
+P 7650 6000
+F 0 "#PWR?" H 7650 6000 30  0001 C CNN
+F 1 "GND" H 7650 6000 30  0001 C CNN
+F 2 "" H 7650 6000 60  0000 C CNN
+F 3 "" H 7650 6000 60  0000 C CNN
+	1    7650 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 5850
+$Comp
+L RESISTOR R?
+U 1 1 589DC009
+P 7250 4750
+F 0 "R?" V 7330 4750 50  0000 C CNN
+F 1 "27" V 7250 4750 50  0000 C CNN
+F 2 "" V 7180 4750 30  0001 C CNN
+F 3 "" H 7250 4750 30  0001 C CNN
+	1    7250 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTOR R?
+U 1 1 589DC06A
+P 7250 4650
+F 0 "R?" V 7330 4650 50  0000 C CNN
+F 1 "27" V 7250 4650 50  0000 C CNN
+F 2 "" V 7180 4650 30  0001 C CNN
+F 3 "" H 7250 4650 30  0001 C CNN
+	1    7250 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 4650 7750 4650
+Wire Wire Line
+	7500 4750 7750 4750
+$Comp
+L CAPACITOR C?
+U 1 1 589DC137
+P 6900 5400
+F 0 "C?" H 6900 5500 50  0000 L CNN
+F 1 "47pF" H 6906 5315 50  0000 L CNN
+F 2 "" H 6938 5250 30  0000 C CNN
+F 3 "" H 6900 5400 60  0000 C CNN
+	1    6900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITOR C?
+U 1 1 589DC176
+P 6600 5400
+F 0 "C?" H 6600 5500 50  0000 L CNN
+F 1 "47pF" H 6606 5315 50  0000 L CNN
+F 2 "" H 6638 5250 30  0000 C CNN
+F 3 "" H 6600 5400 60  0000 C CNN
+	1    6600 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5200 6900 4750
+Wire Wire Line
+	6250 4750 6900 4750
+Wire Wire Line
+	6900 4750 7000 4750
+Wire Wire Line
+	6600 5200 6600 4650
+Wire Wire Line
+	6250 4650 6600 4650
+Wire Wire Line
+	6600 4650 7000 4650
+Connection ~ 6900 4750
+Connection ~ 6600 4650
+Wire Wire Line
+	9150 4550 8750 4550
+Wire Wire Line
+	9150 4650 8750 4650
+Wire Wire Line
+	6900 5600 6900 5850
+Wire Wire Line
+	6600 5600 6600 5850
+Connection ~ 6900 5850
+Wire Wire Line
+	8750 5850 9150 5850
+Text Label 9150 5850 2    60   ~ 0
+EN_PWR
 $EndSCHEMATC
