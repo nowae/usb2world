@@ -1,4 +1,4 @@
-update=Sabato 25 Febbraio 2017 23:37:56
+update=Domenica 05 Marzo 2017 11:23:23
 version=1
 last_client=kicad
 [cvpcb]
@@ -48,7 +48,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=/Users/nicolaorlandini/nowae/libkicad/nowae.kicad_wks
 LastNetListRead=nowae001.net
 PadDrill=0.6
 PadDrillOvalY=0.6
