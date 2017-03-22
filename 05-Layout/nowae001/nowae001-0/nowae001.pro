@@ -1,4 +1,4 @@
-update=Domenica 05 Marzo 2017 11:23:23
+update=Martedì 07 Marzo 2017 21:46:55
 version=1
 last_client=kicad
 [cvpcb]
@@ -36,16 +36,6 @@ LibName23=nowae-transceiver
 LibName24=nowae-transistor
 LibName25=nowae-wireless
 LibName26=power
-[schematic_editor]
-version=1
-PageLayoutDescrFile=${KINOWAE}/nowae.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=/Users/nicolaorlandini/nowae/libkicad/nowae.kicad_wks
@@ -65,3 +55,13 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=${KINOWAE}/nowae.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
