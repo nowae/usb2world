@@ -32,13 +32,13 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "USB To UART"
-Date ""
-Rev ""
+Date "2017-04-13"
+Rev "0"
 Comp ""
 Comment1 "Nicola Orlandini"
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Marco Giammarini"
+Comment3 "Nicola Orlandini"
+Comment4 "2017-04-13"
 $EndDescr
 $Comp
 L FT230XQ U1
