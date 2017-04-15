@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
-    (links 0)
+    (links 67)
     (no_connects 2)
-    (area 197.399999 127.449999 222.500001 143.550001)
+    (area 181.824999 126.365 224.115 144.715)
     (thickness 1.6)
     (drawings 7)
     (tracks 130)
@@ -13,6 +13,16 @@
   )
 
   (page A3)
+  (title_block
+    (title "USB to UART")
+    (date 2017-04-15)
+    (rev 0)
+    (comment 1 "Nicola Orlandini")
+    (comment 2 "Marco Giammarini")
+    (comment 3 "Nicola Orlandini")
+    (comment 4 2017-04-15)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -71,7 +81,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f8_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -86,15 +96,15 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ../../../07-Production/))
   )
 
   (net 0 "")
