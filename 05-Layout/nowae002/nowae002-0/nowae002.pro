@@ -1,4 +1,4 @@
-update=Martedì 07 Marzo 2017 21:07:22
+update=Mercoledì 12 Aprile 2017 14:30:21
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=${KINOWAE}/nowae.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=${KINOWAELIB}
@@ -66,3 +56,13 @@ LibName24=nowae-transceiver
 LibName25=nowae-transistor
 LibName26=nowae-wireless
 LibName27=power
+[schematic_editor]
+version=1
+PageLayoutDescrFile=${KINOWAE}/nowae.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
