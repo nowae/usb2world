@@ -283,11 +283,11 @@ F 0 "P1" H 4300 2650 60  0000 C CNN
 F 1 "USB_A_90" H 4300 1950 60  0001 C CNN
 F 2 "CONNECTOR:USB-A-WURTH-629004113921" H 4675 2300 60  0001 C CNN
 F 3 "" H 4675 2300 60  0000 C CNN
-F 4 "Molex" H 4300 1850 60  0001 C CNN "Manufacturer"
-F 5 "48037-2200" H 4300 1750 60  0001 C CNN "Part Number"
-F 6 "RS Components" H 4300 1650 60  0001 C CNN "Distributor"
-F 7 "800-6772" H 4300 1550 60  0001 C CNN "Distributor Code"
-F 8 "1.47" H 4300 1450 60  0001 C CNN "Price €"
+F 4 "Wurth Elektronik" H 4300 1850 60  0001 C CNN "Manufacturer"
+F 5 "629004113921" H 4300 1750 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4300 1650 60  0001 C CNN "Distributor"
+F 7 "2442732" H 4300 1550 60  0001 C CNN "Distributor Code"
+F 8 "2.88" H 4300 1450 60  0001 C CNN "Price €"
 	1    4300 2300
 	1    0    0    -1  
 $EndComp
