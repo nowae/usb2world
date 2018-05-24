@@ -32,13 +32,13 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "USB To RN4870"
-Date ""
-Rev ""
+Date "2018-04-18"
+Rev "0"
 Comp ""
 Comment1 "Nicola Orlandini"
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Marco Giammarini"
+Comment3 "Marco Giammarini"
+Comment4 "2018-04-18"
 $EndDescr
 $Comp
 L FT230XQ U1
